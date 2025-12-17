@@ -70,8 +70,8 @@ const BrandsPage: React.FC = () => {
             <div className="section-head">
                 <div>
                     <p className="eyebrow">Рабочее пространство</p>
-                    <h2>Библиотека для чтения</h2>
-                    <p className="muted">Личные полки, планы и подборки книг.</p>
+                    <h2>Гараж</h2>
+                    <p className="muted">Бренды и модели.</p>
                 </div>
                 <div className="section-actions">
                     <button className="button button_ghost" type="button" onClick={() => refresh()}>

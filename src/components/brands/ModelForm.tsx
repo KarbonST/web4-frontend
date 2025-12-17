@@ -10,7 +10,7 @@ type ModelFormProps = {
 
 const ModelForm: React.FC<ModelFormProps> = ({
                                                initialValue,
-                                               submitLabel = 'Добавить книгу',
+                                               submitLabel = 'Добавить модель',
                                                onSubmit,
                                                onCancel,
                                            }) => {

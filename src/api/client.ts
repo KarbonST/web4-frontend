@@ -24,7 +24,7 @@ const resolveBaseUrl = () => {
     const runtimeUrl = runtimeConfig.VITE_API_URL;
     const hasRuntimeUrl = typeof runtimeUrl === 'string' && runtimeUrl.trim().length > 0 && !runtimeUrl.includes('${VITE_API_URL');
     const source = hasRuntimeUrl ? runtimeUrl : import.meta.env.VITE_API_URL;
-    return normalizeBaseUrl(source ?? 'https://api.cars.ru');
+    return normalizeBaseUrl(source ?? 'http://localhost:3000');
 };
 
 let cachedBaseUrl: string | null = null;

@@ -30,7 +30,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
         <div className="app-shell">
             <header className="masthead">
                 <div>
-                    <p className="eyebrow">Shelf Atlas</p>
+                    <p className="eyebrow">Big Toys</p>
                     <h1>Автомобильные бренды</h1>
                     <p className="eyebrow-sub">
                         Создавайте записи об автомобильных брендах и моделях.
